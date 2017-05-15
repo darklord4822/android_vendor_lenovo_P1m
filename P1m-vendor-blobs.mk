@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/md_ctrl:system/bin/md_ctrl \
     vendor/lenovo/P1m/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
-    vendor/lenovo/P1m/proprietary/bin/pppd:system/bin/pppd \
     vendor/lenovo/P1m/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/lenovo/P1m/proprietary/bin/orientationd:system/bin/orientationd \
     vendor/lenovo/P1m/proprietary/bin/program_binary_service:system/bin/program_binary_service \
@@ -59,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
     vendor/lenovo/P1m/proprietary/bin/aee:system/bin/aee \
     vendor/lenovo/P1m/proprietary/bin/sn:system/bin/sn \
-    vendor/lenovo/P1m/proprietary/bin/pppd_dt:system/bin/pppd_dt \
     vendor/lenovo/P1m/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/lenovo/P1m/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/lenovo/P1m/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
