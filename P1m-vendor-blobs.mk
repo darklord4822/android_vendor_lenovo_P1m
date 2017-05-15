@@ -78,6 +78,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/lenovo/P1m/proprietary/lib/libtfa9890_interface.so:system/lib/libtfa9890_interface.so \
     vendor/lenovo/P1m/proprietary/lib64/libtfa9890_interface.so:system/lib64/libtfa9890_interface.so \
+    vendor/lenovo/P1m/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
     vendor/lenovo/P1m/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
     vendor/lenovo/P1m/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
