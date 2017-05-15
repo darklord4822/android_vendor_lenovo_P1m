@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/mc6420d:system/bin/mc6420d \
     vendor/lenovo/P1m/proprietary/bin/lsm303md:system/bin/lsm303md \
     vendor/lenovo/P1m/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
-    vendor/lenovo/P1m/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/lenovo/P1m/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/lenovo/P1m/proprietary/bin/md_ctrl:system/bin/md_ctrl \
     vendor/lenovo/P1m/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
@@ -77,6 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
     vendor/lenovo/P1m/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/lenovo/P1m/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
+    vendor/lenovo/P1m/proprietary/lib/libtfa9890_interface.so:system/lib/libtfa9890_interface.so \
+    vendor/lenovo/P1m/proprietary/lib64/libtfa9890_interface.so:system/lib64/libtfa9890_interface.so \
     vendor/lenovo/P1m/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
     vendor/lenovo/P1m/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
@@ -380,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/lenovo/P1m/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
     vendor/lenovo/P1m/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
+    vendor/lenovo/P1m/proprietary/media/mono.cnt:system/media/mono.cnt \
     vendor/lenovo/P1m/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
     vendor/lenovo/P1m/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
     vendor/lenovo/P1m/proprietary/lib/libgas.so:system/lib/libgas.so \
