@@ -406,7 +406,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/pq:system/bin/pq \
     vendor/lenovo/P1m/proprietary/bin/aal:system/bin/aal \
     vendor/lenovo/P1m/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
-    vendor/lenovo/P1m/proprietary/bin/ppl_agent:system/bin/ppl_agent \
     vendor/lenovo/P1m/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libimageio_plat_drv_FrmB.so:system/lib64/libimageio_plat_drv_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.iopipe_FrmB.so:system/lib/libcam.iopipe_FrmB.so \
