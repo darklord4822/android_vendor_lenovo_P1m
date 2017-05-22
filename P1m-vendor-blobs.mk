@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/lenovo/P1m/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/lenovo/P1m/proprietary/bin/s62xd:system/bin/s62xd \
+    vendor/lenovo/P1m/proprietary/bin/fuelgauged:system/bin/fuelgauged \
+    vendor/lenovo/P1m/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
     vendor/lenovo/P1m/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/lenovo/P1m/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
