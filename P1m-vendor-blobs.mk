@@ -19,35 +19,25 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/lenovo/P1m/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/lenovo/P1m/proprietary/bin/xlog:system/bin/xlog \
-    vendor/lenovo/P1m/proprietary/bin/uiautomator:system/bin/uiautomator \
-    vendor/lenovo/P1m/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
-    vendor/lenovo/P1m/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/lenovo/P1m/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/lenovo/P1m/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/lenovo/P1m/proprietary/bin/msensord:system/bin/msensord \
     vendor/lenovo/P1m/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/lenovo/P1m/proprietary/bin/terservice:system/bin/terservice \
     vendor/lenovo/P1m/proprietary/bin/thermal_manager:system/bin/thermal_manager \
-    vendor/lenovo/P1m/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
     vendor/lenovo/P1m/proprietary/bin/mtkrild:system/bin/mtkrild \
-    vendor/lenovo/P1m/proprietary/bin/thermald:system/bin/thermald \
     vendor/lenovo/P1m/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
-    vendor/lenovo/P1m/proprietary/bin/thermal:system/bin/thermal \
     vendor/lenovo/P1m/proprietary/bin/bmm050d:system/bin/bmm050d \
-    vendor/lenovo/P1m/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/lenovo/P1m/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
     vendor/lenovo/P1m/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/lenovo/P1m/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/lenovo/P1m/proprietary/bin/mc6420d:system/bin/mc6420d \
     vendor/lenovo/P1m/proprietary/bin/lsm303md:system/bin/lsm303md \
-    vendor/lenovo/P1m/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/lenovo/P1m/proprietary/bin/wmt_loader:system/bin/wmt_loader \
     vendor/lenovo/P1m/proprietary/bin/md_ctrl:system/bin/md_ctrl \
-    vendor/lenovo/P1m/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
     vendor/lenovo/P1m/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/lenovo/P1m/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/lenovo/P1m/proprietary/bin/program_binary_service:system/bin/program_binary_service \
     vendor/lenovo/P1m/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/lenovo/P1m/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/lenovo/P1m/proprietary/bin/geomagneticd:system/bin/geomagneticd \
@@ -55,16 +45,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/lenovo/P1m/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
-    vendor/lenovo/P1m/proprietary/bin/aee:system/bin/aee \
-    vendor/lenovo/P1m/proprietary/bin/sn:system/bin/sn \
     vendor/lenovo/P1m/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/lenovo/P1m/proprietary/bin/memsicd:system/bin/memsicd \
     vendor/lenovo/P1m/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/lenovo/P1m/proprietary/bin/s62xd:system/bin/s62xd \
     vendor/lenovo/P1m/proprietary/bin/fuelgauged:system/bin/fuelgauged \
     vendor/lenovo/P1m/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
-    vendor/lenovo/P1m/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    vendor/lenovo/P1m/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
     vendor/lenovo/P1m/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
@@ -109,8 +95,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
     vendor/lenovo/P1m/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib64/libh264enc_sa.ca7.so:system/lib64/libh264enc_sa.ca7.so \
-    vendor/lenovo/P1m/proprietary/lib/libion.so:system/lib/libion.so \
-    vendor/lenovo/P1m/proprietary/lib64/libion.so:system/lib64/libion.so \
     vendor/lenovo/P1m/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/lenovo/P1m/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
     vendor/lenovo/P1m/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
@@ -161,8 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/lenovo/P1m/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
     vendor/lenovo/P1m/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
-    vendor/lenovo/P1m/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    vendor/lenovo/P1m/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
     vendor/lenovo/P1m/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/lenovo/P1m/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
@@ -189,8 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libged.so:system/lib64/libged.so \
     vendor/lenovo/P1m/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
     vendor/lenovo/P1m/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
-    vendor/lenovo/P1m/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/lenovo/P1m/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     vendor/lenovo/P1m/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/lenovo/P1m/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
     vendor/lenovo/P1m/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
@@ -406,8 +386,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/lenovo/P1m/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/lenovo/P1m/proprietary/bin/pq:system/bin/pq \
-    vendor/lenovo/P1m/proprietary/bin/aal:system/bin/aal \
-    vendor/lenovo/P1m/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
     vendor/lenovo/P1m/proprietary/lib/libimageio_plat_drv_FrmB.so:system/lib/libimageio_plat_drv_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libimageio_plat_drv_FrmB.so:system/lib64/libimageio_plat_drv_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.iopipe_FrmB.so:system/lib/libcam.iopipe_FrmB.so \
