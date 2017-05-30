@@ -22,6 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/muxreport:system/bin/muxreport \
     vendor/lenovo/P1m/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/lenovo/P1m/proprietary/bin/msensord:system/bin/msensord \
+    vendor/lenovo/P1m/proprietary/bin/em_svr:system/bin/em_svr \
+    vendor/lenovo/P1m/proprietary/bin/factory:system/bin/factory \
     vendor/lenovo/P1m/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/lenovo/P1m/proprietary/bin/terservice:system/bin/terservice \
     vendor/lenovo/P1m/proprietary/bin/thermal_manager:system/bin/thermal_manager \
@@ -180,7 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/lenovo/P1m/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
-    vendor/lenovo/P1m/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/lenovo/P1m/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
     vendor/lenovo/P1m/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
@@ -336,7 +337,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/P1m/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lenovo/P1m/proprietary/etc/audio_device.xml:system/etc/audio_device.xml \
-    vendor/lenovo/P1m/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
+    vendor/lenovo/P1m/proprietary/etc/factory.ini:system/etc/factory.ini \
+    vendor/lenovo/P1m/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
+    vendor/lenovo/P1m/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
     vendor/lenovo/P1m/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
     vendor/lenovo/P1m/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/lenovo/P1m/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
@@ -370,14 +373,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
     vendor/lenovo/P1m/proprietary/lib/libcamdrv_FrmB.so:system/lib/libcamdrv_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libcamdrv_FrmB.so:system/lib64/libcamdrv_FrmB.so \
-    vendor/lenovo/P1m/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
-    vendor/lenovo/P1m/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
     vendor/lenovo/P1m/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
     vendor/lenovo/P1m/proprietary/lib/libcam.iopipe_FrmB.so:system/lib/libcam.iopipe_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libcam.iopipe_FrmB.so:system/lib64/libcam.iopipe_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
-    vendor/lenovo/P1m/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/lenovo/P1m/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/lenovo/P1m/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/lenovo/P1m/proprietary/bin/pq:system/bin/pq \
