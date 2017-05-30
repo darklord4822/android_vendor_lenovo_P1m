@@ -183,8 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
     vendor/lenovo/P1m/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
-    vendor/lenovo/P1m/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
-    vendor/lenovo/P1m/proprietary/lib64/libaudio-resampler.so:system/lib64/libaudio-resampler.so \
     vendor/lenovo/P1m/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/lenovo/P1m/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
     vendor/lenovo/P1m/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
@@ -361,9 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
     vendor/lenovo/P1m/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
     vendor/lenovo/P1m/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
-    vendor/lenovo/P1m/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
-    vendor/lenovo/P1m/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
     vendor/lenovo/P1m/proprietary/media/mono.cnt:system/media/mono.cnt \
     vendor/lenovo/P1m/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
     vendor/lenovo/P1m/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
