@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/lenovo/P1m/proprietary/bin/xlog:system/bin/xlog \
     vendor/lenovo/P1m/proprietary/bin/muxreport:system/bin/muxreport \
-    vendor/lenovo/P1m/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
     vendor/lenovo/P1m/proprietary/bin/msensord:system/bin/msensord \
     vendor/lenovo/P1m/proprietary/bin/em_svr:system/bin/em_svr \
     vendor/lenovo/P1m/proprietary/bin/factory:system/bin/factory \
@@ -40,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
     vendor/lenovo/P1m/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/lenovo/P1m/proprietary/bin/orientationd:system/bin/orientationd \
-    vendor/lenovo/P1m/proprietary/bin/guiext-server:system/bin/guiext-server \
     vendor/lenovo/P1m/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/lenovo/P1m/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/lenovo/P1m/proprietary/bin/akmd8975:system/bin/akmd8975 \
@@ -119,8 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
     vendor/lenovo/P1m/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
     vendor/lenovo/P1m/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
-    vendor/lenovo/P1m/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
-    vendor/lenovo/P1m/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
     vendor/lenovo/P1m/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/lenovo/P1m/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
     vendor/lenovo/P1m/proprietary/lib/libbwc.so:system/lib/libbwc.so \
@@ -128,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libmnl.so:system/lib/libmnl.so \
     vendor/lenovo/P1m/proprietary/lib/libmal.so:system/lib/libmal.so \
     vendor/lenovo/P1m/proprietary/lib64/libmal.so:system/lib64/libmal.so \
-    vendor/lenovo/P1m/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
     vendor/lenovo/P1m/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
     vendor/lenovo/P1m/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
@@ -276,9 +271,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/lenovo/P1m/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
     vendor/lenovo/P1m/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
-    vendor/lenovo/P1m/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/lib3a.so:system/lib/lib3a.so \
     vendor/lenovo/P1m/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
+    vendor/lenovo/P1m/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
+    vendor/lenovo/P1m/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
     vendor/lenovo/P1m/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/lenovo/P1m/proprietary/lib64/libdrmmtkwhitelist.so:system/lib64/libdrmmtkwhitelist.so \
     vendor/lenovo/P1m/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
@@ -405,4 +401,4 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libimageio_FrmB.so:system/lib64/libimageio_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
-    vendor/lenovo/P1m/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so
+    vendor/lenovo/P1m/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
