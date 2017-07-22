@@ -26,6 +26,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/lenovo/P1m/proprietary/bin/terservice:system/bin/terservice \
     vendor/lenovo/P1m/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+    vendor/lenovo/P1m/proprietary/bin/thermal:system/bin/thermal \
+    vendor/lenovo/P1m/proprietary/bin/thermald:system/bin/thermald \
     vendor/lenovo/P1m/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/lenovo/P1m/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
     vendor/lenovo/P1m/proprietary/bin/bmm050d:system/bin/bmm050d \
@@ -64,8 +66,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
     vendor/lenovo/P1m/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/lenovo/P1m/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
-    vendor/lenovo/P1m/proprietary/lib/libtfa9890_interface.so:system/lib/libtfa9890_interface.so \
-    vendor/lenovo/P1m/proprietary/lib64/libtfa9890_interface.so:system/lib64/libtfa9890_interface.so \
+    vendor/lenovo/P1m/proprietary/lib/libtfa9897_interface.so:system/lib/libtfa9897_interface.so \
+    vendor/lenovo/P1m/proprietary/lib64/libtfa9897_interface.so:system/lib64/libtfa9897_interface.so \
     vendor/lenovo/P1m/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
     vendor/lenovo/P1m/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
     vendor/lenovo/P1m/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
@@ -93,7 +95,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/lenovo/P1m/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
     vendor/lenovo/P1m/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
+    vendor/lenovo/P1m/proprietary/lib/libhevce_sb.ca7.android.so:system/lib/libhevce_sb.ca7.android.so \
+    vendor/lenovo/P1m/proprietary/lib/libuvtswenc_sa.ca7.android.so:system/lib/libuvtswenc_sa.ca7.android.so \
     vendor/lenovo/P1m/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
     vendor/lenovo/P1m/proprietary/lib64/libh264enc_sa.ca7.so:system/lib64/libh264enc_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/lenovo/P1m/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
@@ -182,7 +187,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/lenovo/P1m/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
     vendor/lenovo/P1m/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
+    vendor/lenovo/P1m/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
     vendor/lenovo/P1m/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
+    vendor/lenovo/P1m/proprietary/lib64/libhevce_sb.ca7.android.so:system/lib64/libhevce_sb.ca7.android.so \
+    vendor/lenovo/P1m/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/lenovo/P1m/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/lenovo/P1m/proprietary/lib64/libaed.so:system/lib64/libaed.so \
     vendor/lenovo/P1m/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
@@ -334,7 +342,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lenovo/P1m/proprietary/etc/audio_device.xml:system/etc/audio_device.xml \
     vendor/lenovo/P1m/proprietary/etc/factory.ini:system/etc/factory.ini \
-    vendor/lenovo/P1m/proprietary/etc/fmr/mt6627_fm_cust.cfg:system/etc/fmr/mt6627_fm_cust.cfg \
     vendor/lenovo/P1m/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
     vendor/lenovo/P1m/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
     vendor/lenovo/P1m/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
@@ -358,7 +365,13 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
     vendor/lenovo/P1m/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
     vendor/lenovo/P1m/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
-    vendor/lenovo/P1m/proprietary/media/mono.cnt:system/media/mono.cnt \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/AIO1211GYT_New2.speaker:system/etc/tfa98xx/AIO1211GYT_New2.speaker \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/AIO1224_WD.cnt:system/etc/tfa98xx/AIO1224_WD.cnt \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/AIO1224_WD.ini:system/etc/tfa98xx/AIO1224_WD.ini \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/HQ1219-3.vstep:system/etc/tfa98xx/HQ1219-3.vstep \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/Speech1224-4.vstep:system/etc/tfa98xx/Speech1224-4.vstep \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/TFA9897N1B_28nov2014.config:system/etc/tfa98xx/TFA9897N1B_28nov2014.config \
+    vendor/lenovo/P1m/proprietary/etc/tfa98xx/TFA9897_N1B1_2_2_1.patch:system/etc/tfa98xx/TFA9897_N1B1_2_2_1.patch \
     vendor/lenovo/P1m/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
     vendor/lenovo/P1m/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
     vendor/lenovo/P1m/proprietary/lib/libgas.so:system/lib/libgas.so \
