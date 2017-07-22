@@ -339,6 +339,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/P1m/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lenovo/P1m/proprietary/etc/seccomp_policy/mediacodec-seccomp.policy:system/etc/seccomp_policy/mediacodec-seccomp.policy \
     vendor/lenovo/P1m/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/lenovo/P1m/proprietary/etc/audio_device.xml:system/etc/audio_device.xml \
     vendor/lenovo/P1m/proprietary/etc/factory.ini:system/etc/factory.ini \
