@@ -411,6 +411,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib/libcam.campipe.so:system/lib/libcam.campipe.so \
     vendor/lenovo/P1m/proprietary/lib64/libcam.campipe.so:system/lib64/libcam.campipe.so \
     vendor/lenovo/P1m/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
+    vendor/lenovo/P1m/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
     vendor/lenovo/P1m/proprietary/lib/libimageio_FrmB.so:system/lib/libimageio_FrmB.so \
     vendor/lenovo/P1m/proprietary/lib64/libimageio_FrmB.so:system/lib64/libimageio_FrmB.so \
