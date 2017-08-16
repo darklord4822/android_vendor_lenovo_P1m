@@ -308,6 +308,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
     vendor/lenovo/P1m/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/lenovo/P1m/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
+    vendor/lenovo/P1m/proprietary/lib/librrc.so:system/lib/librrc.so \
+    vendor/lenovo/P1m/proprietary/lib64/librrc.so:system/lib64/librrc.so \
     vendor/lenovo/P1m/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/lenovo/P1m/proprietary/lib64/libcvsd_mtk.so:system/lib64/libcvsd_mtk.so \
     vendor/lenovo/P1m/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
