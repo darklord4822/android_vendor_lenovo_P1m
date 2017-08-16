@@ -340,9 +340,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libh264enc_sa.ca7.so:system/vendor/lib/mediadrm/libh264enc_sa.ca7.so \
-    vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libvp8dec_sa.ca7.so:system/vendor/lib/mediadrm/libvp8dec_sa.ca7.so \
-    vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libvp9dec_sa.ca7.so:system/vendor/lib/mediadrm/libvp9dec_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/vendor/lib/libh264enc_sa.ca7.so:system/vendor/lib/libh264enc_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/vendor/lib/libvp9dec_sa.ca7.so:system/vendor/lib/libvp9dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/P1m/proprietary/etc/seccomp_policy/mediacodec-seccomp.policy:system/etc/seccomp_policy/mediacodec-seccomp.policy \
     vendor/lenovo/P1m/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
