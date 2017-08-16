@@ -340,6 +340,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libh264enc_sa.ca7.so:system/vendor/lib/mediadrm/libh264enc_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libvp8dec_sa.ca7.so:system/vendor/lib/mediadrm/libvp8dec_sa.ca7.so \
+    vendor/lenovo/P1m/proprietary/vendor/lib/mediadrm/libvp9dec_sa.ca7.so:system/vendor/lib/mediadrm/libvp9dec_sa.ca7.so \
     vendor/lenovo/P1m/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lenovo/P1m/proprietary/etc/seccomp_policy/mediacodec-seccomp.policy:system/etc/seccomp_policy/mediacodec-seccomp.policy \
     vendor/lenovo/P1m/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
@@ -367,7 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/P1m/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
     vendor/lenovo/P1m/proprietary/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
     vendor/lenovo/P1m/proprietary/etc/firmware/dsp_1_lwg_n.bin:system/etc/firmware/dsp_1_lwg_n.bin \
-    vendor/lenovo/P1m/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
+    vendor/lenovo/P1m/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
     vendor/lenovo/P1m/proprietary/etc/tfa98xx/AIO1211GYT_New2.speaker:system/etc/tfa98xx/AIO1211GYT_New2.speaker \
     vendor/lenovo/P1m/proprietary/etc/tfa98xx/AIO1224_WD.cnt:system/etc/tfa98xx/AIO1224_WD.cnt \
     vendor/lenovo/P1m/proprietary/etc/tfa98xx/AIO1224_WD.ini:system/etc/tfa98xx/AIO1224_WD.ini \
